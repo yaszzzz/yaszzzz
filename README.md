@@ -19,13 +19,13 @@
 ### 🚀 About Me
 - 🎯 Focused on **Web Development & Blockchain**
 - 🌱 Currently learning **Next.js, Golang & DevOps**
-- 💡 Interested in **IoT, AI & Crypto**
+- 💡 Interested in **Blockchain Technology**
 
 ---
 
 ### ⚡ Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,golang,nodejs,postgres,docker,git" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,golang,nodejs,postgres,docker,git,flutter" />
 </p>
 
 ---
