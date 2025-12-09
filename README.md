@@ -40,6 +40,3 @@
 
 ---
 
-## 🐍 Snake Animation
-![snake](https://raw.githubusercontent.com/yaszzzz/yaszzzz/output/snake.svg)
-
