@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<h1 align="center">Hi 👋, I'm Ilyas</h1>
+<h1 align="center">Hi, I'm Ilyas</h1>
 <h3 align="center">Fullstack Developer | Web & Blockchain Enthusiast ⚡</h3>
 
 <!-- ANIMATED TYPING TEXT -->
