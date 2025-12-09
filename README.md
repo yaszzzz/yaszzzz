@@ -1,38 +1,31 @@
-<!-- HEADER -->
-<h1 align="center">Hi, I'm Ilyas</h1>
-<h3 align="center">Fullstack Developer | Web & Blockchain Enthusiast ⚡</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:000428,100:004e92&text=Mohamad%20Ilyas%20Ali&fontSize=44&fontColor=00f7ff&animation=fadeIn" />
 
-<!-- ANIMATED TYPING TEXT -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?color=36BCF7&center=true&vCenter=true&lines=Web+Developer;Blockchain+Enthusiast;Next.js+%7C+Golang+%7C+PostgreSQL;Always+Learning+New+Things" />
-  </a>
-</p>
-
-<!-- GIF BANNER -->
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=24&center=true&vCenter=true&width=600&lines=Fullstack+Developer;Web+Develpoment+%26+Blockchain+Technology;Next.js+%7C+Golang+%7C+Typescript;Always+Learning+New+Things" />
 </p>
 
 ---
 
 ### 🚀 About Me
-- 🎯 Focused on **Web Development & Blockchain**
-- 🌱 Currently learning **Next.js, Golang & DevOps**
+- 🎯 Focused on **Web Development & Blockchain Technology**
+- 🌱 Currently learning **Next.js, Golang & Rust**
 - 💡 Interested in **Blockchain Technology**
 
 ---
 
 ### ⚡ Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,golang,nodejs,postgres,docker,git,flutter,hardhat" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,golang,nodejs,postgres,flutter,git,tailwind,express" />
 </p>
 
 ---
 
-
 ### 🌐 Connect With Me
 <p align="center">
-  <a href="https://www.instagram.com/mohamadilyasss_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/mohamad-ilyas-ali"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.instagram.com/mohamadilyasss_/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/mohamad-ilyas-ali">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
