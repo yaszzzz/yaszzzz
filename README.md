@@ -30,19 +30,6 @@
 
 ---
 
-### 📊 GitHub Stats (Animated)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME_KAMU&show_icons=true&theme=radical" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME_KAMU&theme=radical" />
-</p>
-
----
-
-### 🐍 Contribution Snake (Animated)
-![snake gif](https://github.com/USERNAME_KAMU/USERNAME_KAMU/blob/output/github-contribution-grid-snake.svg)
-
----
 
 ### 🌐 Connect With Me
 <p align="center">
