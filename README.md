@@ -22,9 +22,11 @@
 ---
 
 ## 📈 Total Commits Growth (Last 1 Year)
-<img src="assets/commit-growth.svg" />
 
----
+<p align="center">
+  <img src="assets/commit-growth.svg" width="100%" />
+</p>
+
 
 ## 🌐 Connect With Me
 <p align="center">
