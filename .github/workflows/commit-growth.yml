@@ -2,39 +2,34 @@ name: Generate Commit Growth Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # setiap hari
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write   # ⬅️ WAJIB supaya bisa push
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          pip install requests matplotlib
+      - run: pip install requests matplotlib
 
-      - name: Generate commit growth graph
+      - name: Generate graph
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/commit_growth.py
+        run: python scripts/commit_growth.py
 
-      - name: Commit & Push changes
+      - name: Commit result
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add assets/commit-growth.svg
-          git commit -m "chore: update commit growth graph" || echo "No changes"
+          git commit -m "chore: update commit growth graph" || echo "no change"
           git push
