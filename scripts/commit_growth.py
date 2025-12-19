@@ -23,24 +23,27 @@ daily = {}
 for e in events:
     if e.get("type") == "PushEvent":
         date = e["created_at"][:10]
-        daily[date] = daily.get(date, 0) + len(e["payload"]["commits"])
 
-dates = []
+        # ✅ AMAN: selalu ada
+        commit_count = e["payload"].get("size", 0)
+
+        daily[date] = daily.get(date, 0) + commit_count
+
 counts = []
-
 current = start
 total = 0
 
 while current <= end:
     d = current.isoformat()
     total += daily.get(d, 0)
-    dates.append(d)
     counts.append(total)
     current += datetime.timedelta(days=1)
 
 plt.figure(figsize=(10, 4))
-plt.plot(counts, linewidth=2)
-plt.fill_between(range(len(counts)), counts, alpha=0.3)
-plt.title("Total Commits Growth (Last 1 Year)")
+plt.plot(counts, color="#00f7ff", linewidth=3)
+plt.fill_between(range(len(counts)), counts, color="#00f7ff", alpha=0.25)
+plt.title("Total Commits Growth (Last 1 Year)", color="#00f7ff")
 plt.axis("off")
+
+os.makedirs("assets", exist_ok=True)
 plt.savefig("assets/commit-growth.svg", transparent=True)
