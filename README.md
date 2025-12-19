@@ -21,10 +21,8 @@
 
 ---
 
-## 🔥 Contribution Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yaszzzz&bg_color=0d1117&color=00f7ff&line=00f7ff&point=ffffff&area=true&hide_border=true" />
-</p>
+## 📈 Total Commits Growth (Last 1 Year)
+<img src="assets/commit-growth.svg" />
 
 ---
 
