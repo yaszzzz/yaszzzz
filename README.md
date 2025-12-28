@@ -23,7 +23,7 @@
   🌐 web &nbsp;|&nbsp; ⛓️ blockchain &nbsp;|&nbsp; 🎮 experiments
 </p>
 
-## 📈 Total Commits Growth (Last 1 Year)
+
 
 <p align="center">
   <img src="assets/commit-growth.svg" width="100%" />
